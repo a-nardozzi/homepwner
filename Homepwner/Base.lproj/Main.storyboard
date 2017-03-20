@@ -57,25 +57,26 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWO-lO-0np">
                                             <rect key="frame" x="14" y="8" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ybc-Fx-Fth">
                                             <rect key="frame" x="14" y="35" width="31" height="15"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                             <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keh-Ip-fAz">
                                             <rect key="frame" x="325" y="22" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Ybc-Fx-Fth" firstAttribute="leading" secondItem="pWO-lO-0np" secondAttribute="leading" id="5Sw-Bt-zl7"/>
+                                        <constraint firstItem="Ybc-Fx-Fth" firstAttribute="top" secondItem="pWO-lO-0np" secondAttribute="bottom" constant="6" id="668-dC-pCo"/>
                                         <constraint firstItem="keh-Ip-fAz" firstAttribute="centerY" secondItem="ehn-ZG-zfe" secondAttribute="centerY" id="HYj-H8-GIP"/>
                                         <constraint firstItem="pWO-lO-0np" firstAttribute="leading" secondItem="ehn-ZG-zfe" secondAttribute="leadingMargin" constant="6" id="JhS-MF-PKV"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="keh-Ip-fAz" secondAttribute="trailing" id="Re8-9l-nUn"/>
@@ -83,6 +84,11 @@
                                         <constraint firstItem="pWO-lO-0np" firstAttribute="top" secondItem="ehn-ZG-zfe" secondAttribute="topMargin" id="rWq-69-qH4"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="pWO-lO-0np" id="XVI-3g-fBl"/>
+                                    <outlet property="serialNumberLabel" destination="Ybc-Fx-Fth" id="kKK-RK-QtR"/>
+                                    <outlet property="valueLabel" destination="keh-Ip-fAz" id="06e-51-dWy"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
