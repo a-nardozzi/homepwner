@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		831A501D1E7F5327005CDDD7 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A501C1E7F5327005CDDD7 /* ItemCell.swift */; };
 		83361E571E8978630055645A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83361E561E8978630055645A /* DetailViewController.swift */; };
+		83FEE9131E8C1D8F0046ACE7 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FEE9121E8C1D8F0046ACE7 /* ImageStore.swift */; };
 		FAD7FA451E75E0A900C07A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7FA441E75E0A900C07A5D /* AppDelegate.swift */; };
 		FAD7FA4A1E75E0AA00C07A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD7FA481E75E0AA00C07A5D /* Main.storyboard */; };
 		FAD7FA4C1E75E0AA00C07A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD7FA4B1E75E0AA00C07A5D /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		831A501C1E7F5327005CDDD7 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		83361E561E8978630055645A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		83FEE9121E8C1D8F0046ACE7 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		FAD7FA411E75E0A900C07A5D /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD7FA441E75E0A900C07A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD7FA491E75E0AA00C07A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				FAD7FA441E75E0A900C07A5D /* AppDelegate.swift */,
 				FAD7FA481E75E0AA00C07A5D /* Main.storyboard */,
 				83361E561E8978630055645A /* DetailViewController.swift */,
+				83FEE9121E8C1D8F0046ACE7 /* ImageStore.swift */,
 				FAD7FA4B1E75E0AA00C07A5D /* Assets.xcassets */,
 				FAD7FA4D1E75E0AA00C07A5D /* LaunchScreen.storyboard */,
 				FAD7FA501E75E0AA00C07A5D /* Info.plist */,
@@ -205,6 +208,7 @@
 				TargetAttributes = {
 					FAD7FA401E75E0A800C07A5D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CW9KLAT92E;
 						ProvisioningStyle = Automatic;
 					};
 					FAD7FA541E75E0AA00C07A5D = {
@@ -276,6 +280,7 @@
 				FAD7FA771E75F9C300C07A5D /* ItemStore.swift in Sources */,
 				83361E571E8978630055645A /* DetailViewController.swift in Sources */,
 				FAD7FA451E75E0A900C07A5D /* AppDelegate.swift in Sources */,
+				83FEE9131E8C1D8F0046ACE7 /* ImageStore.swift in Sources */,
 				831A501D1E7F5327005CDDD7 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CW9KLAT92E;
 				INFOPLIST_FILE = Homepwner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AWN.Homepwner;
@@ -440,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CW9KLAT92E;
 				INFOPLIST_FILE = Homepwner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AWN.Homepwner;
